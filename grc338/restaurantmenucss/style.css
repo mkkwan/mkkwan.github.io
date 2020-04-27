@@ -1,0 +1,55 @@
+/*CSS File*/
+
+wrapper{
+
+}
+body{
+background: #EFF5FF;    
+}
+
+h1{
+font-family: serif;
+font-size: 3em;
+color: #5B6C86;
+padding: 20px;
+text-align: center;
+}
+
+.blue{
+color: #0C52BA;
+}
+
+h2{
+font-family: serif;
+font-size: 2.5em;
+color: #003366;
+margin-left: 15px;
+text-align: center;
+}
+
+h3{
+font-family: serif;
+font-size: 2em;
+color: #003366;
+margin-left: 20px;
+}
+
+ul li h4{
+margin: 5px;
+font-size: 1.25em;
+color: #004C99;  
+}
+
+#price{
+list-style: none;
+color: #003366;
+padding: 0;
+    font-weight: bold;
+}
+
+ul li p{
+list-style: none;
+color: #75869F;
+padding: 0;
+line-height: 0.75em;
+}
