@@ -74,7 +74,7 @@ padding: 3%;
 width: 70%;}
 
 .ingredients ul li{
-margin-top: 0.1em;
+margin-top: 0.3em;
 color: #cc4c02;}
 
 .directions{
@@ -88,7 +88,7 @@ padding-right: 3%;
 width: 70%;}
 
 .directions ol li{
-margin-top: 0.15em;
+margin-top: 0.3em;
 color: #cc4c02;}
 
 footer{
