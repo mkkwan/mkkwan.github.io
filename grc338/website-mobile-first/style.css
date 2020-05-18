@@ -1,0 +1,140 @@
+/*DOCTYPE CSS*/
+  @import url("https://use.typekit.net/rgo4ywc.css");
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+
+.container{
+width: 100%;
+height: 100%;
+}
+
+header img{
+    width:33%;
+    height:33%;
+    margin-left:0.5em;
+}
+
+header li a{
+    font-family:extra-bold, serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li{
+    list-style:none;
+    display: inline;
+    overflow: hidden;
+}
+
+nav{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 1em; /* Position the navbar at the top of the page */
+  width: 70%; /* Full width */
+  right: 1em;
+    float: right;
+}
+
+/* Links inside the navbar */
+nav a {
+  float: right;
+  display: block;
+  background: #f2f2f2;;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+a:hover{
+    color: rgb(82,85,165);
+}
+
+a.currentpage{
+    color: rgb(82,85,165);
+}
+
+h2, h3, h4, p, li{
+    font-family: baskerville, serif;
+}
+
+.introimage img{
+    width:100%;
+    height:10em;
+    object-fit: cover;
+}
+
+.maincontent{
+    margin: 1em;
+    text-align: center;
+}
+
+.maincontent p{
+    text-align: center;
+}
+
+.maincontent .para{
+    text-align: left;
+}
+
+.maincontent ul{
+	padding: 0;
+	border: 0;
+}*/
+
+.maincontent ul {
+    list-style: none;
+    line-height: 2em;
+}
+
+.maincontent ul li{
+    border-bottom: 1px solid #333;
+    display:block;
+}
+
+.maincontent ul li p{
+    color:#5f5c8a;
+}
+
+.maincontent h2{
+    color:rgb(82,85,165);
+    margin-bottom:;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.maincontent h3{
+    text-transform: lowercase;
+    background:#f2f2f2;
+    width: 100%;
+    color:#333;
+}
+
+.maincontent h4{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
