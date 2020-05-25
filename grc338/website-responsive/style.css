@@ -1,0 +1,418 @@
+/*DOCTYPE CSS*/
+@import url("https://use.typekit.net/rgo4ywc.css");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header img {
+    width: 33%;
+    height: 33%;
+    margin-left: 0.5em;
+}
+
+header li a {
+    font-family: extra-bold, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 1.2em; /* Position the navbar at the top of the page */
+    width: 70%; /* Full width */
+    right: 1em;
+    float: right;
+}
+
+/* Links inside the navbar */
+nav a {
+    float: right;
+    display: block;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: rgb(82, 85, 165);
+}
+
+a.currentpage {
+    color: rgb(82, 85, 165);
+}
+
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: baskerville, serif;
+}
+
+.introimage img {
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+    padding-top: 0.5em;
+}
+
+.introimage h2 {
+    color: rgb(82, 85, 165);
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    text-transform: lowercase;
+}
+
+span {
+    font-weight: 800;
+}
+
+.maincontent {
+    margin: 1em;
+    text-align: center;
+}
+
+.maincontent img {
+    width: 90%;
+    height: 20em;
+    object-fit: cover;
+    margin-top: 1em;
+}
+
+.maincontent p {
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.maincontent .para {
+    text-align: left;
+}
+
+.maincontent ul {
+    padding: 0;
+    border: 0;
+}
+
+.maincontent ul {
+    list-style: none;
+    line-height: 2em;
+    text-align: left;
+}
+
+.maincontent ul li {
+    border-bottom: 1px solid #333;
+    display: block;
+    line-height: 1.15em;
+}
+
+.maincontent ul li p {
+    color: #5f5c8a;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.maincontent h2 {
+    color: rgb(82, 85, 165);
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 0.25em;
+}
+
+.maincontent h3 {
+    text-transform: lowercase;
+    background: #f2f2f2;
+    width: 100%;
+    color: #333;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 0.25em;
+    width: 100%;
+    overflow: cover;
+}
+
+.maincontent h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+div.coffee {
+    max-width: 25em;
+}
+
+div.tea {
+    max-width: 25em;
+}
+
+div.treats {
+    max-width: 25em;
+}
+
+@media only screen and (min-width: 25em) {
+    nav {
+        top: 6%;
+    }
+
+    nav a {
+        font-size: 1.25em;
+    }
+
+    div.coffee {
+        width: 32%;
+        float: left;
+        margin-right: 0.5em;
+    }
+
+    div.tea {
+        width: 32%;
+        float: left;
+        margin-right: 0.5em;
+    }
+
+    div.treats {
+        width: 31%;
+        float: left;
+        margin-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    header img {
+        max-width: 20%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    .introimage {
+        padding-top: 2em;
+        width: 95%;
+        height: 13em;
+        margin: auto;
+        padding-bottom: 3em;
+    }
+
+    header nav {
+        height: ;
+    }
+
+    nav {
+        top: 10%;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+    */ .maincontent img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+        margin: auto;
+        margin-top: 2em;
+    }
+
+    .maincontent h2 {
+        font-size: 1.5em;
+    }
+
+    .maincontent ul li {
+        font-size: 1.15em;
+    }
+
+    .maincontent ul li p {
+        font-size: 1.15em;
+    }
+
+    .maincontent h2 {
+        font-size: 2em;
+    }
+
+    .maincontent {
+        margin-left: 2em;
+    }
+
+    div.coffee {
+        width: 29%;
+        margin-right: 1.25em;
+    }
+
+    div.tea {
+        width: 29%;
+        margin-right: 1.25em;
+    }
+
+    div.treats {
+        width: 29%;
+        margin-right: 1.25em;
+    }
+}
+
+@media only screen and (min-width: 42em) {
+    .maincontent .para {
+        font-size: 1.15em;
+        width: 70%;
+        margin-right: 1em;
+    }
+
+    .maincontent .para2 {
+        font-size: 1.15em;
+        width: 70%;
+        margin-right: 1em;
+    }
+
+    .maincontent .para3 {
+        padding-top: 1em;
+        font-size: 1.15em;
+        width: 70%;
+        margin-right: 1em;
+    }
+
+    .maincontent .para4 {
+        font-size: 1.15em;
+        width: 70%;
+        float: none;
+    }
+
+    .maincontent img {
+        margin-top: 0;
+        width: 60%;
+        float: left;
+        padding-bottom: 2em;
+        padding-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 55em) {
+    .maincontent img {
+        float: right;
+    }
+
+    .maincontent .para {
+        width: 30%;
+        float: left;
+    }
+
+    .maincontent .para2 {
+        width: 30%;
+        float: left;
+    }
+
+    .maincontent .para3 {
+        width: 30%;
+        float: left;
+        padding-top: 0;
+    }
+
+    .maincontent .para4 {
+        width: 30%;
+        float: none;
+        margin-top: none;
+    }
+}
